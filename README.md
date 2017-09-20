@@ -13,13 +13,14 @@ Based on Stock Kitkat kernel (3.4.67)
    * Front Camera	3MP
 
 # Build
-
   * repo init -u git://github.com/los14mt6582/android.git -b cm-14.1
+
   * repo sync
+
   * git clone https://github.com/los14mt6582/android_device_hm_note_1w.git -b cm-14.1 device/Xiaomi/hm_note_1w
+
   * git clone https://github.com/los14mt6582/android_vendor_hm_note_1w.git -b cm-14.1 vendor/Xiaomi/hm_note_1w
-  * cd device/Xiaomi/hm_note_1w/patches
-  * source apply.sh 
+
   * source build/envsetup.sh
   * brunch hm_note_1w
   * Done :)
