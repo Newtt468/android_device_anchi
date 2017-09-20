@@ -12,30 +12,12 @@ Based on Stock Kitkat kernel (3.4.67)
    * Rear Camera	13MP
    * Front Camera	3MP
 
-
-# Working
-  * Dual SIM
-  * 2G/3G Switch
-  * Fixed Reboot To turn On Data
-  * Wifi
-  * VPN
-  * Bluetooth
-  * Audio
-  * Sensors
-  * Camera (photo and video recording)
-  * GPS
-  * Screen Record
-  * HD games
-  * Tethering (Wifi, Bluetooth and USB)
-
-
-
 # Build
 
-  * repo init -u git://github.com/LineageOS/android.git -b cm-13.0
-  * repo sync
-  * git clone https://github.com/EndLess728/android_device_hm_note_1w.git -b cm-13.0 device/Xiaomi/hm_note_1w
-  * git clone https://github.com/EndLess728/android_vendor_hm_note_1w.git -b cm-13.0 vendor/Xiaomi/hm_note_1w
+  * repo init -u git://github.com/los14mt6582/android.git -b cm-14.1
+  * repo sync
+  * git clone https://github.com/los14mt6582/android_device_hm_note_1w.git -b cm-14.1 device/Xiaomi/hm_note_1w
+  * git clone https://github.com/los14mt6582/android_vendor_hm_note_1w.git -b cm-14.1 vendor/Xiaomi/hm_note_1w
   * cd device/Xiaomi/hm_note_1w/patches
   * source apply.sh 
   * source build/envsetup.sh
