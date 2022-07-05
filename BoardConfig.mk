@@ -1,5 +1,5 @@
 # inherit from the proprietary version
--include vendor/Xiaomi/hm_note_1w/BoardConfigVendor.mk
+-include vendor/Lenovo/anchi/BoardConfigVendor.mk
 
 # GPS
 TARGET_SPECIFIC_HEADER_PATH := device/Xiaomi/hm_note_1w/include
